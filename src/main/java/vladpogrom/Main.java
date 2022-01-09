@@ -6,7 +6,7 @@ public class Main {
         // cat
         Cat bread = new Cat ();
         bread.setGender();
-        bread.setIs_castrated();
+        bread.setIsCastrated();
         bread.setColor();
         bread.setBreed();
         bread.setName();
@@ -22,6 +22,5 @@ public class Main {
         pixel.setNfc();
         pixel.setFace_id();
         pixel.printChars();
-
     }
 }
