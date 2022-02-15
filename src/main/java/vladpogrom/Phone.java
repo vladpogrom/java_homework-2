@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Phone {
     int capacity;
     boolean face_id;
-    String model;
     boolean nfc;
+    String model;
     String color;
     String brand;
 
@@ -55,7 +55,7 @@ public class Phone {
         }
     }
 
-    public void setFace_id () {
+    public void setFaceId () {
         System.out.println("Phone has face id ?: yes / no");
         Scanner console = new Scanner(System.in);
         String tempFace_id = console.nextLine();

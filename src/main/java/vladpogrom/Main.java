@@ -20,7 +20,7 @@ public class Main {
         pixel.setCapacity();
         pixel.setColor();
         pixel.setNfc();
-        pixel.setFace_id();
+        pixel.setFaceId();
         pixel.printChars();
     }
 }
