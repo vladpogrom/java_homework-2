@@ -10,13 +10,13 @@ public class Cat {
     int age;
     boolean isCastrated;
     String name;
-    String Gender;
+    String gender;
     String color;
-    String breed; // порода
+    String breed;
 
     public void printChars() {
         System.out.println("Chars of cat:");
-        System.out.println("Gender = " + Gender);
+        System.out.println("Gender = " + gender);
         System.out.println("Age = " + age);
         System.out.println("Name = " + name);
         System.out.println("Is castrated = " + isCastrated);
@@ -53,10 +53,10 @@ public class Cat {
         Scanner console = new Scanner(System.in);
         String tempGender = console.nextLine();
         if (tempGender == enumGender.MALE.name()) {
-            Gender = enumGender.MALE.name();
+            gender = enumGender.MALE.name();
         }
         else {
-            Gender = enumGender.FEMALE.name();
+            gender = enumGender.FEMALE.name();
         }
     }
 
